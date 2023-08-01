@@ -33,6 +33,5 @@ spring:
   datasource:
     url: ${DATABASE_URL:jdbc:mysql://172.16.15.11:3308/}${DATABASE_NAME:ngs_website}?createDatabaseIfNotExist=true
     #    url: ${DATABASE_URL:jdbc:mysql://171.244.51.190:3308/}${DATABASE_NAME:vna_user}?createDatabaseIfNotExist=true
-    #    url: ${DATABASE_URL:jdbc:mysql://172.16.15.11:3308/}${DATABASE_NAME:vna_user}?createDatabaseIfNotExist=true
     username: root
     password: ROOTPWD
